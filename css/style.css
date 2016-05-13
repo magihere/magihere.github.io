@@ -20,10 +20,10 @@ background-size: cover;
 }
 
 h1{
-font-family: 'Shadows Into Light', cursive;
+font-family: 'verdana', cursive;
 color: white;
 margin-left: 10px;
-font-size: 60px;
+font-size: 40px;
 text-align: center; 
 }
 
@@ -42,18 +42,24 @@ font-size: 30px;
 text-align: center; 
 }
 
+h4{
+font-family: 'verdana', bolder;
+color: white;
+font-size: 15px;
+text-align: right; 
+}
 
 header{
 	width: 1000px;
-	height: 120 px;
+	height: 200px;
 	background: rgba(255, 255, 255, 10,70);
 }
 
 nav{
 width: 1000px;
 height: 50px;
-background: red;
-border-radius: 10px;
+background: gray;
+border-radius: 18px;
 
 }
 ul{
@@ -82,8 +88,8 @@ section{
 }
 aside{
 
-	width: 280px;
-	background: white;
+	width: 185px;
+	background: lightslategray;
 	height: 600px;
 	float: left;
 	margin-left: 20px;
@@ -94,7 +100,7 @@ aside{
 footer{
 width: 1000px;
 height: 70px;
-background: maroon;
+background: dodgerblue;
 float: left;
 margin-top: 20px;
 border-radius: 10px;
@@ -118,10 +124,10 @@ p{
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
 
-.menu:link{color: white; text-decoration: none;}
-.menu:visited{color: white; text-decoration: none;}
-.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
-.menu:active{color: white; text-decoration: none;}
+.menu:link{color: red; text-decoration: none;}
+.menu:visited{color: red; text-decoration: none;}
+.menu:hover{color: red; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: red; text-decoration: none;}
 
 /*SEUDO CLASES*/
 
